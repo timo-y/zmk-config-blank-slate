@@ -90,9 +90,9 @@
         sym_layer {
             label = "Sym";
             bindings = <
-                &trans   &kp DE_AT     &none        &kp DE_EURO  &none       &kp DE_LCBR  &kp DE_RCBR  &kp DE_LBRC  &kp DE_RBRC  &kp DE_TILD  &kp DE_BSLS  &trans
+                &trans   &kp DE_AT     &none        &kp DE_EURO  &none       &none        &kp DE_LCBR  &kp DE_RCBR  &kp DE_LBRC  &kp DE_RBRC  &none        &trans
                 &trans   &kp DE_CARET  &kp DE_EXLM  &kp DE_DQUO  &kp DE_DLR  &kp DE_PERC  &kp DE_AMPR  &kp DE_SLSH  &kp DE_LPRN  &kp DE_RPRN  &kp DE_EQL   &kp DE_QUES
-                &trans   &kp DE_PIPE   &kp DE_DEG   &kp DE_ASTR  &kp DE_QUOT &kp DE_LT    &kp DE_GT    &kp DE_PLUS  &trans       &trans       &trans       &trans
+                &trans   &kp DE_BSLS   &kp DE_PIPE  &kp DE_QUOT  &kp DE_DEG  &kp DE_ASTR  &kp DE_LT    &kp DE_GT    &kp DE_PLUS  &kp DE_TILD  &kp DE_UNDS  &trans
                 &trans   &trans        &trans       &trans       &trans              &trans            &trans       &trans       &trans       &trans       &trans
             >;
         };
